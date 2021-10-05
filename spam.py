@@ -58,7 +58,7 @@ def make_dataset(dictionary):
     return feature_set,labels
 
 d=dict()
-features,labels=make_dataset(d)
+features,labels=make_dataset(d) #creates a dataset based on wordcount
 
 #print(len(features),len(labels))
 x_train,x_test,y_train,y_test=ts(features,labels,test_size=0.2)
