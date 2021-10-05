@@ -46,9 +46,6 @@ clf = load("spam-classifier.mdl")
 d = make_dict()
 
 ch=email.body
-#ch="i hope you enjoted the dinner last night?"
-#chr=str(email.body)
-print(ch)
 while True:
     features = []
     
